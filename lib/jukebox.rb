@@ -19,10 +19,10 @@ def help
 end
 
 def list(songs)
-  my_songs.keys.each do |song|
+  songs.keys.each do |song|
       puts song
     end
-end	
+end
 
 def play(songs)
   puts "Please enter a song name or number:"

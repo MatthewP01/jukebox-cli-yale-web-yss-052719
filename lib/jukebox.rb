@@ -34,5 +34,5 @@ def play(songs)
   puts "Please enter a song name or number:"
   song_choice = gets.chomp
   # song_num = songs[i].first
-  songs.each_with_index
+  songs.each_with_index(1)
 end

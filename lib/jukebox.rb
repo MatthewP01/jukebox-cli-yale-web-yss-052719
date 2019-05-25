@@ -30,6 +30,6 @@ def list(songs)
 9. Amos Lee - Keep It Loose, Keep It Tight"
 end
 
-def play
+def play(songs)
 
 end

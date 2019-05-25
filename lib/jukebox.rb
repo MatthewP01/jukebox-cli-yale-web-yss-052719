@@ -34,7 +34,7 @@ def play(songs)
   song_choice = gets.chomp("Please enter a song name or number:")
   # song_num = songs[i].first
 
-  songs.each do |i|
+  for i in songs
     if songs.include?(i) 
       puts "Playing <song name>"
     # elsif songs[i] == song_choice

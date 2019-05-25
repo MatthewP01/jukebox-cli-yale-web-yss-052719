@@ -52,5 +52,7 @@ def run
   if user_input != "exit"
     if user_input == "play"
       play(songs)
+    elsif user_input == ""
+
   end
 end

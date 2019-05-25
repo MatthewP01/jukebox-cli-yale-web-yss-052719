@@ -29,6 +29,3 @@ def list
 8. Harry Chapin - Cats in the Cradle
 9. Amos Lee - Keep It Loose, Keep It Tight"
 end
-
-
-end

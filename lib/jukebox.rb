@@ -54,6 +54,8 @@ def run
       play(songs)
     elsif user_input == "list"
       list(songs)
+    else
+      gets.chomp
 
   end
 end

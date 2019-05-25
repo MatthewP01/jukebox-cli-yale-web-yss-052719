@@ -35,7 +35,7 @@ def play(songs)
   # song_num = songs[i].first
 
   for i in songs
-    if songs.include?(i) == song_choice
+    if songs.include?(song_choice)
       puts "Playing #{songs[i]}"
     # elsif songs[i] == song_choice
     #   puts "Playing <song name>"

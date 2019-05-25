@@ -33,5 +33,6 @@ end
 def play(songs)
   song_choice = gets.chomp("Please enter a song name or number:")
 
-  if song_choice = 
+  for i in songs
+    
 end

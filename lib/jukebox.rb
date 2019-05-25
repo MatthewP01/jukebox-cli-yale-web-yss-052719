@@ -56,6 +56,8 @@ def run
       list(songs)
     else
       gets.chomp
+      exit_jukebox
+
 
   end
 end

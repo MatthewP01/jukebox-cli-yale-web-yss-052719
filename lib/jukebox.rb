@@ -32,7 +32,7 @@ end
 
 def play(songs)
   song_choice = gets.chomp("Please enter a song name or number:")
-  song_num = songs[i].first
+  # song_num = songs[i].first
 
   for i in songs
     if songs[i].include? == song_choice

@@ -53,6 +53,7 @@ def run
     if user_input == "play"
       play(songs)
     elsif user_input == "list"
+      list(songs)
 
   end
 end

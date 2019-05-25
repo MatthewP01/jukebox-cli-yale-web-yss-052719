@@ -38,4 +38,6 @@ def play(songs)
       puts "Playing <song name>"
     elsif songs[i] == song_choice
       puts "Playing <song name>"
+    else
+      puts "Invalid input, please try again"
 end

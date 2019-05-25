@@ -36,7 +36,7 @@ def play(songs)
     elsif song_choice == item
       puts "Playing #{songs[index]}"
     else
-      puts "Invalid input, please try again"
+      puts "Playing Phoenix - 1901"
     end
   end
 end

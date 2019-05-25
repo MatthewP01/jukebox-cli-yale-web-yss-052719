@@ -21,8 +21,6 @@ end
 def list(songs)
   songs.each do |song, location|
     puts song
-    }
-
 end
 
 def play(songs)

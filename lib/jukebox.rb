@@ -31,5 +31,6 @@ def list(songs)
 end
 
 def play(songs)
+  song_choice = gets.chomp
 
 end

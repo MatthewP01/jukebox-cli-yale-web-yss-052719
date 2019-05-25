@@ -22,7 +22,8 @@ def list(songs)
   my_songs.each { |song, location|
     puts song
     }
-end	
+  end
+end
 
 def play(songs)
   puts "Please enter a song name or number:"

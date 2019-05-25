@@ -36,7 +36,7 @@ def play(songs)
 
   for i in songs
     if song_choice.to_i = 1..9
-      avail_song = songs[i]
+      avail_song = songs[song_choice]
       puts "Playing #{avail_song}"
     # elsif songs[i] == song_choice
     #   puts "Playing <song name>"

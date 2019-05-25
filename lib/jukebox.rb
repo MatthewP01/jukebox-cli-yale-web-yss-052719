@@ -63,6 +63,5 @@ def run(songs)
       user_input = gets.chomp
     elsif user_input == "exit"
       exit_jukebox
-    end
   end
 end

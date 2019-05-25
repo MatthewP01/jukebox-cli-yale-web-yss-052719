@@ -37,5 +37,5 @@ def play(songs)
     if songs[i].first == song_choice
       puts "Playing <song name>"
     elsif songs[i] == song_choice
-      puts songs[i]
+      puts "Playing <song name>"
 end

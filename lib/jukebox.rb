@@ -58,6 +58,7 @@ def run
       list(songs)
       puts "Please enter a command:"
       user_input = gets.chomp
+    elsif
 
     else
       gets.chomp

@@ -35,5 +35,5 @@ def play(songs)
   song_choice = gets.chomp
   # song_num = songs[i].first
   songs.each_with_index(1) do |item, index|
-    if 
+    if song_choice
 end

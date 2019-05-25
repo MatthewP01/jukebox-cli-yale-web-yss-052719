@@ -34,10 +34,9 @@ def play(songs)
   song_choice = gets.chomp("Please enter a song name or number:")
   # song_num = songs[i].first
 
-  for i in songs
-    if song_choice.to_i = 1..9
-      avail_song = songs[song_choice]
-      puts "Playing #{avail_song}"
+  if song_choice.to_i = 1..9
+    avail_song = songs[song_choice]
+    puts "Playing #{avail_song}"
     # elsif songs[i] == song_choice
     #   puts "Playing <song name>"
     else

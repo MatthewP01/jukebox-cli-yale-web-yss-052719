@@ -58,6 +58,7 @@ def run
       gets.chomp
       exit_jukebox
     end
+  end
 
 
   end

@@ -18,7 +18,7 @@ def help
 - exit : exits this program"
 end
 
-def list(songs)
+def list
   puts "1. Phoenix - 1901
 2. Tokyo Police Club - Wait Up
 3. Sufjan Stevens - Too Much

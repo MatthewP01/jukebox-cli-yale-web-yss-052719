@@ -38,7 +38,7 @@ def play(songs)
     if song_choice == index
       puts "Playing #{songs[index - 1]}"
     elsif song_choice == index[0]
-      puts "Playing Phoenix - 1902"
+      puts "Playing Phoenix - 1901"
     elsif song_choice == item
       puts "Playing #{songs[index]}"
     else

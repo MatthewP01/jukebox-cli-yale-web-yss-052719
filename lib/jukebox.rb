@@ -34,7 +34,7 @@ def play(songs)
   song_choice = gets.chomp("Please enter a song name or number:")
   # song_num = songs[i].first
 
-  if song_choice.to_i = 1..9
+  if song_choice.is_a
     avail_song = songs[song_choice]
     puts "Playing #{avail_song}"
     # elsif songs[i] == song_choice

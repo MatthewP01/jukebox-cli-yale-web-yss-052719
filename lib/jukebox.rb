@@ -19,10 +19,10 @@ def help
 end
 
 def list(songs)
-  my_songs.each_with_index do |song, index|
-    puts "#{index-1}. #{song}"
-  end
-end
+  my_songs.keys.each do |song|
+      puts song
+    end
+  end	end
 
 def play(songs)
   puts "Please enter a song name or number:"

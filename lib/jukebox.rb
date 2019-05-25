@@ -28,7 +28,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   song_choice = gets.chomp
   # song_num = songs[i].first
-  songs.each do |item, index|
+  songs.each_with_index do |item, index|
     if song_choice == 1
       puts "Playing Phoenix - 1901"
     elsif song_choice == index

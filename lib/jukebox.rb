@@ -19,7 +19,7 @@ def help
 end
 
 def list(songs)
-  songs.each do |song, location|
+  songs.each_with_index do |song, location|
     puts song
   end
 end

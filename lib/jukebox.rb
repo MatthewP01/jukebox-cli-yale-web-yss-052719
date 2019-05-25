@@ -39,7 +39,6 @@ def play(songs)
       puts "Playing Phoenix - 1901"
     elsif song_choice == index
       puts "Playing #{songs[index - 1]}"
-
     elsif song_choice == item
       puts "Playing #{songs[index]}"
     else

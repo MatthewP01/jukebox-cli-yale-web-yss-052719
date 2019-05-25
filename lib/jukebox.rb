@@ -35,7 +35,7 @@ def play(songs)
   song_choice = gets.chomp
   # song_num = songs[i].first
   songs.each_with_index do |item, index|
-    if song_choice == index
+  elsif song_choice == index
       puts "Playing #{songs[index - 1]}"
     elsif song_choice == 1
       puts "Playing Phoenix - 1901"

@@ -49,4 +49,5 @@ def run
   help
   puts "Please enter a command:"
   user_input = gets.chomp
+  if user_input != "exit"
 end

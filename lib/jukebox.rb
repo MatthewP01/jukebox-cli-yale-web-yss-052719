@@ -49,19 +49,19 @@ def run(songs)
   help
   puts "Please enter a command:"
   user_input = gets.chomp
-    if user_input == "play"
-      play(songs)
-      puts "Please enter a command:"
-      user_input = gets.chomp
-    elsif user_input == "list"
-      list(songs)
-      puts "Please enter a command:"
-      user_input = gets.chomp
-    elsif user_input == "help"
-      help
-      puts "Please enter a command:"
-      user_input = gets.chomp
-    elsif user_input == "exit"
-      exit_jukebox
+  if user_input == "play"
+    play(songs)
+    puts "Please enter a command:"
+    user_input = gets.chomp
+  elsif user_input == "list"
+    list(songs)
+    puts "Please enter a command:"
+    user_input = gets.chomp
+  elsif user_input == "help"
+    help
+    puts "Please enter a command:"
+    user_input = gets.chomp
+  elsif user_input == "exit"
+    exit_jukebox
   end
 end

@@ -37,5 +37,5 @@ def play(songs)
   songs.each_with_index(1) do |item, index|
     if song_choice.to_i = index
       puts "Playing #{item[index]}"
-    elsif song_choice 
+    elsif song_choice == item
 end

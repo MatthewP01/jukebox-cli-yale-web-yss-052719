@@ -19,7 +19,7 @@ def help
 end
 
 def list(songs)
-  songs.each { |song, location|
+  songs.each do |song, location|
     puts song
     }
 

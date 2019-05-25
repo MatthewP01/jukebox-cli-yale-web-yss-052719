@@ -31,7 +31,7 @@ def play(songs)
   songs.each_with_index do |item, index|
     if song_choice.to_i == 1
       puts "Playing Phoenix - 1901"
-    elsif song_choice.to_i == index
+    elsif song_choice == index
       puts "Playing #{songs[index - 1]}"
     elsif song_choice == item
       puts "Playing #{songs[index]}"

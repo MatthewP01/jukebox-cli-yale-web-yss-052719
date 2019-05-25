@@ -38,4 +38,5 @@ def play(songs)
     if song_choice.to_i = index
       puts "Playing #{item[index]}"
     elsif song_choice == item
+      puts "Playing #{item[index]}"
 end

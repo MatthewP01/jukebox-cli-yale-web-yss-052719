@@ -61,7 +61,7 @@ def run(songs)
       help
       puts "Please enter a command:"
       user_input = gets.chomp
-  else
+    elsif user_input == "exit"
     exit_jukebox
     end
   end

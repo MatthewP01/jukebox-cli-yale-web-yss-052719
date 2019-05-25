@@ -58,6 +58,10 @@ def run
       list(songs)
       puts "Please enter a command:"
       user_input = gets.chomp
+    elsif user_input == "help"
+      list(songs)
+      puts "Please enter a command:"
+      user_input = gets.chomp
     elsif user_input == "exit"
       puts "Please enter a command:"
       user_input = gets.chomp
